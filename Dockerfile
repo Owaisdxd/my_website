@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:20.04
 RUN apt-get install update
 RUN apt-get install -y apache2
 RUN apt-get install -y apache2-utils
